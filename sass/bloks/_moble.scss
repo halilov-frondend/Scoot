@@ -1,0 +1,44 @@
+.mobile {
+  background-color: $Dark-Navy;
+  height: 300px;
+  padding-top: 100px;
+  margin-top: 178px;
+}
+.mobile-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-connect {
+  width: 100%;
+  max-width: 410px;
+}
+.mobile-connect-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $white;
+}
+.mobile-connect {
+  display: flex;
+  align-items: center;
+}
+.mobile-connect-img {
+  margin-right: 18px;
+}
+.mobile-imges {
+  position: relative;
+}
+.mobile-img-1 {
+  position: absolute;
+  right: 570px;
+}
+.mobile-img-2 {
+  position: absolute;
+  right: 150px;
+}
+.mobile-img-3 {
+  position: absolute;
+  right: -113px;
+}

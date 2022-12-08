@@ -1,0 +1,26 @@
+.site-footer {
+  background-color: #333a44;
+  padding: 33px 0;
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+}
+.footer-brand {
+  margin-right: 55px;
+}
+.footer-connect {
+  display: flex;
+  align-items: center;
+}
+.footer-connect-img {
+  color: $yellow;
+  margin-right: 24px;
+}
+.footer-connect-img:hover {
+  background-color: #fff;
+  color: #fff;
+}
+.footer-connect-img:not(last-child) {
+  margin-right: 24;
+}

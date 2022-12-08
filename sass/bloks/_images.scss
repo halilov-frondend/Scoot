@@ -40,3 +40,30 @@
   right: -114px;
   top: -20px;
 }
+
+.images-inner-copy {
+  flex-direction: row-reverse;
+}
+
+.images-2-connect-2-img {
+  position: absolute;
+  left: -115px;
+  top: 10 0px;
+}
+
+.images-2-connect-2-img-2 {
+  position: absolute;
+  left: -113px;
+}
+
+.images-3-connect-2-img-1 {
+  border-radius: 50%;
+}
+
+.images-3-connect-2-img {
+  position: absolute;
+  right: -110px;
+  max-width: 300px;
+  height: 100px;
+  top: 50px;
+}
