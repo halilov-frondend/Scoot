@@ -1,0 +1,42 @@
+.images {
+  margin-top: 266px;
+}
+.images-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.images-connect {
+  width: 100%;
+  max-width: 445px;
+}
+.images-connect-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: $Dark-Navy;
+}
+.images-connect-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: $Dim-Grey;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-family: "Lexend-Deca", sans-serif;
+}
+.images-connect-2 {
+  position: relative;
+}
+.images-connect-2-img {
+  position: absolute;
+  left: -110px;
+  top: 300px;
+  width: 625px;
+}
+.images-connect-2-img-2 {
+  position: absolute;
+  right: -114px;
+  top: -20px;
+}
