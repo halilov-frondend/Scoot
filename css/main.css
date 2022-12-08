@@ -391,6 +391,7 @@ p {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .site-header__inner {
@@ -450,7 +451,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 1355px;
+  width: 1345px;
   height: 650px;
   margin: 0 auto;
 }
@@ -493,4 +494,49 @@ p {
   position: absolute;
   top: -150px;
   left: 550px;
+}
+
+.article {
+  margin-top: 160px;
+}
+
+.article-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-connect {
+  width: 350px;
+  z-index: 10;
+}
+
+.article-connect-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin-top: 40px;
+}
+
+.article-connect-text-2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+  margin-top: 27px;
+  font-family: "Lexend-Deca", sans-serif;
+}
+
+.artucle-length {
+  position: relative;
+}
+
+.artucle-length-img {
+  position: absolute;
+  z-index: -1;
+  right: 365px;
+  top: -95px;
+  width: 874px;
 }/*# sourceMappingURL=main.css.map */
