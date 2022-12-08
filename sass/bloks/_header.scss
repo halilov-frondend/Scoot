@@ -1,0 +1,28 @@
+.site-header {
+  padding: 22px 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+}
+.site-header__brand {
+  margin-right: 58px;
+}
+.repetition-btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: $white;
+  padding: 14px 39px;
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  &:hover {
+    background-color: $white;
+    color: $yellow;
+    border: 1px solid $yellow;
+  }
+}
